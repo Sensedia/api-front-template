@@ -3,7 +3,7 @@
 
 Esse projeto java tem como base o framework **Spring Boot**. Para rodar este projeto basta executar a classe **Application.java** que possui a anotação de inicialização do springboot e que se encronta no pacote base do projeto.
 
-Por padrão utilizamos um aruivo de configuração para cada ambiente que existir, esse arquivo de configuração ficam na pasta de 
+Por padrão utilizamos um arquivo de configuração para cada ambiente que existir, esses arquivos de configuração ficam na pasta de 
 [**resources**](https://github.com/Sensedia/api-front-template/tree/master/src/main/resources).
 
 
