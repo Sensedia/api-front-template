@@ -1,6 +1,6 @@
 # Camada de Interface
 
-### Camada responsável pela exibição de informações do sistema ao usuário e também por interpretar comandos do usuário
+### Camada responsável por receber e enviar informações para sistemas/clientes externos a aplicação
 
 Dentro do pacote de interface, podemos criar subpacotes, como:
   * **interface.controller** (pacote que contem os controllers responsáveis por receber e responder as requisições http);
