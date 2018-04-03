@@ -1,7 +1,7 @@
 # Api Front Template
 ## Template para projetos java de "api-front"
 
-Esse projeto java tem como base o framework **Spring Boot**. Para rodar este projeto basta executar a classe **Application.java** que possui a anotação de inicialização do springboot e que se encronta no pacote base do projeto.
+Esse projeto java tem como base o framework **Spring Boot**. Para rodar este projeto basta executar a classe [**Application.java**](https://github.com/Sensedia/api-front-template/blob/master/src/main/java/com/sensedia/apifront/projectname/Application.java) que possui a anotação de inicialização do springboot e que se encronta no pacote base do projeto.
 
 Por padrão utilizamos um arquivo de configuração para cada ambiente que existir, esses arquivos de configuração ficam na pasta de 
 [**resources**](https://github.com/Sensedia/api-front-template/tree/master/src/main/resources).
