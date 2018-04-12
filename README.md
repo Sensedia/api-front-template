@@ -11,8 +11,10 @@ Um Api-Front tem como objetivo principal realizar a tranformação de um protoco
 
 O Projeto segue a arquitetura de 3 camadas, onde cada camada é representada pelos pacotes:
 
-1. **interface** (camada responsável por receber e enviar informações para sistemas/clientes externos);
+1. [**interface**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/interfaces) (camada responsável por receber e enviar informações para sistemas/clientes externos);
 
-2. **domain** (representa os conceitos, regras e lógicas de negócio);
+2. [**domain**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/domain) (representa os conceitos, regras e lógicas de negócio);
 
-3. **infrastructure** (fornece recursos técnicos que darão suporte às camadas superiores. São normalmente as partes de um sistema responsáveis por persistência de dados, conexões com bancos de dados, envio de mensagens por redes, gravação e leitura de discos, etc.).
+3. [**integration**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/integration) (É a camada que realializa a cominucação direta com o legado e fornece a fonte dos dados e recursos técnicos que darão suporte às camadas acima);
+
+4. [**infrastructure**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/infrastructure) (É a camada que fornece recursos técnicos comuns e não funcionais para todas as outras camadas. São normalmente as partes de um sistema responsáveis por log, configurações, documentação e etc.).
