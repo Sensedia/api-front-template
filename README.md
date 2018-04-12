@@ -9,7 +9,7 @@ Por padrão utilizamos um arquivo de configuração para cada ambiente que exist
 
 Um Api-Front tem como objetivo principal realizar a tranformação de um protocolo especifico para rest
 
-O Projeto segue a arquitetura de 3 camadas, onde cada camada é representada pelos pacotes:
+O Projeto segue a arquitetura de 4 camadas, onde cada camada é representada pelos pacotes:
 
 1. [**interface**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/interfaces) (camada responsável por receber e enviar informações para sistemas/clientes externos);
 
