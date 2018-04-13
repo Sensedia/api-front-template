@@ -13,7 +13,7 @@ O Projeto segue a arquitetura de 4 camadas, onde cada camada é representada pel
 
 1. [**interface**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/interfaces) (camada responsável por receber e enviar informações para sistemas/clientes externos);
 
-2. [**domain**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/domain) (representa os conceitos, regras e lógicas de negócio);
+2. [**business**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/business) (representa os conceitos, regras e lógicas de negócio);
 
 3. [**integration**](https://github.com/Sensedia/api-front-template/tree/master/src/main/java/com/sensedia/apifront/projectname/integration) (É a camada que realializa a cominucação direta com o legado e fornece a fonte dos dados e recursos técnicos que darão suporte às camadas acima);
 
