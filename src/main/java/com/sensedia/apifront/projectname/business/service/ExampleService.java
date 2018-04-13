@@ -1,4 +1,4 @@
-package com.sensedia.apifront.projectname.bussines.service;
+package com.sensedia.apifront.projectname.business.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.sensedia.apifront.projectname.bussines.entity;
+package com.sensedia.apifront.projectname.business.entity;
 
 public class UserExample {
 
